@@ -1,0 +1,17 @@
+In this file are some hashes for you to crack using your MPI code. There are four hashes and each is an SHA hash. The salt value is always $6$HP. The four challenges are designed to increase in difficulty but, if you get stuck then you may want to try moving on. Each challenge requires different techniques and each challenge, except for challenge four, comes with a small hint on how to approach the problem.
+
+challenge 1 hint: Brute force will suffice, only lower case letters appear but, I wont tell you the length of this password.
+
+challenge 2 hint: Use the list of common passwords, you wont break this with brute force.
+
+challenge 3 hint: You might want to use 2 nodes to crack this one. More nodes wont necessarily help. This password has length 13.
+
+challenge 4 hint: You're on your own. Try a mixture of all the techniques you know.
+
+hash 1: $6$HP$rOwTCEIAMZXBbOOJTzNqO0cQEuV6w2tje4bW1ipWOlDW5zRwbfJAP1ssipHJerxQU4CqqkbisnHsd2.jG6Sgb1
+
+hash 2: $6$HP$NWGyGlqSR1y5di3Qo7H2bfJzEn1d2tV0j4GYayGwbBMBz39yPfPZJhT3XlyrmQNIzyNwcAU6xSvxaKYQkWf2t1
+
+hash 3: $6$HP$pHLfplOoeqaxzrCv2QECIJCaYHco404Ln10c79yWsBZQTJR7HC37HQFDzoOxoSGMfKTbVIR5uQm3dB7f64LwN0
+
+hash 4: $6$HP$xpUIDreYTP4eppLmXDY8RnFUTvNRUKUCoxp.SuG73wTIdMo59JdY.vISkhogvTNzHMrJRosVQJa4i3Gjt3o.l.
