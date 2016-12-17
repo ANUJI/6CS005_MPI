@@ -23,7 +23,7 @@ const int ALPHABET_SIZE = 28;
 const int ENCRYPTED_SIZE = 94;
 //define an error message
 #define ERROR -1
-
+//function for decrypt password
 void decrypt_password(int, char*, char**);
 
 
