@@ -20,6 +20,7 @@ char* encrypt_string(char* password);
 FILE* open_file(char* filename);
 //close file
 void close_file(FILE* fp);
+//read the lines in the file to an array
 void read_line_in_file(FILE* fp, char** line);
 
 
