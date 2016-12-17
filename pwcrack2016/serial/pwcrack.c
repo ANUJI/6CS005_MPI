@@ -120,6 +120,7 @@ int main(int argc, char **argv) {
     (void)fclose(fp);
 //freeing line
     free(line);
+//freeing the allocated memory for plain text 
     free(plain);
 
     return 0;
