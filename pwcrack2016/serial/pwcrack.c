@@ -92,6 +92,7 @@ int main(int argc, char **argv) {
     assert(password_length > 0);
     char *filename = argv[2];
     char *line = malloc(password_length + 1);
+    //checking the file is empty
     FILE* fp = NULL;
     char* plain = malloc(sizeof(char) * (password_length + 1));
 
