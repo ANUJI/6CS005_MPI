@@ -49,7 +49,7 @@ void read_line_in_file(FILE* fp, char** line) {
 char* encrypt_string(char* password) {
     return crypt(password, SALT);
 }
-
+//argv and argc,command line arguments are passed to main() function.
 int main(int argc, char **argv) {
     /* If the user has specified a file on the command line then use that.
      * Otherwise use the popular password file.
