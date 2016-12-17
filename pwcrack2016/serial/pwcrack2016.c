@@ -39,7 +39,7 @@ void decrypt_password(const int password_length, char* password, char** plain) {
     char* word = malloc(password_length + 1);
     //checking encription has a null characters
     char *encrypted = NULL;
-
+    //checking the encrypted password is matches with ALPHABETS
     for (i = 0; i < possibilties; i++) {
         val = i;
         for (j = 0; j < password_length; j++) {
