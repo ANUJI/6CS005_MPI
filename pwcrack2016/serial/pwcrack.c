@@ -77,7 +77,7 @@ void decrypt_password(const int password_length, char* password, char** plain) {
 
     return;
 }
-
+//argv and argc,command line arguments are passed to main()
 int main(int argc, char **argv) {
     if (argc < 3) {
         fprintf(stderr, "Usage: pwcrack n filename\nn should be the number of characters in the password.\n");
