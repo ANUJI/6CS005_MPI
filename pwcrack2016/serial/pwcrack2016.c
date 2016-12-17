@@ -83,7 +83,7 @@ int main(int argc, char **argv) {
       //if the plain text matches, print the Message
         printf("%s decrypts to: %s\n", password, plain);
     }
-
+    //freeing allocated memory
     free(plain);
 
     return 0;
