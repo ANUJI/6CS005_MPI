@@ -23,7 +23,7 @@ void close_file(FILE* fp);
 //read the lines in the file to an array
 void read_line_in_file(FILE* fp, char** line);
 
-
+//Opening the file r
 FILE* open_file(char* filename) {
     FILE *fp;
     fp = fopen(filename, "r");
