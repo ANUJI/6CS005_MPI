@@ -94,6 +94,7 @@ int main(int argc, char **argv) {
     char *line = malloc(password_length + 1);
     //checking the file is empty
     FILE* fp = NULL;
+    //Allocating memory
     char* plain = malloc(sizeof(char) * (password_length + 1));
 
     fp = fopen(filename, "rb");
