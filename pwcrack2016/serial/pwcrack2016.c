@@ -80,6 +80,7 @@ int main(int argc, char **argv) {
     //checking the decryption password matches
     decrypt_password(password_length, password, &plain);
     if (plain) {
+      //if the plain text matches, print the Message
         printf("%s decrypts to: %s\n", password, plain);
     }
 
