@@ -68,5 +68,6 @@ int main(int argc, char **argv) {
     close_file(fp);
 //Free the memory
     if(line) free(line);
+//Exiting from the program
     return 0;
 }
