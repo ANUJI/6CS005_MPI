@@ -25,10 +25,10 @@ const int ENCRYPTED_SIZE = 94;
 #define ERROR -1
 //funtion for decrypt password
 void decrypt_password(int, char*, char**);
-//read the file line by line 
+//read the file line by line
 void read_line_in_file(FILE*, char**);
 
-
+//read the file line by line till end of the characters
 void read_line_in_file(FILE* fp, char** line) {
     size_t len = 0;
     ssize_t read = 0;
