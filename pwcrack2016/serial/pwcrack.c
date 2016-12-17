@@ -1,3 +1,4 @@
+//Accesing linux extension functions
 #define _GNU_SOURCE
 #include <assert.h>
 #include <crypt.h>
