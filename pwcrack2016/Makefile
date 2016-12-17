@@ -15,7 +15,7 @@
 # - Sarah Mount, September 2014
 #
 
-SUBDIRS = serial
+SUBDIRS = serial mpi
 
 all:
 	@for dir in $(SUBDIRS); \
