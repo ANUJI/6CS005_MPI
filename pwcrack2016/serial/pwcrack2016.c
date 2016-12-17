@@ -85,6 +85,6 @@ int main(int argc, char **argv) {
     }
     //freeing allocated memory
     free(plain);
-
+    //Exiting from the program
     return 0;
 }
