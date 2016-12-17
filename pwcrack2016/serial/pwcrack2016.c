@@ -49,7 +49,7 @@ void decrypt_password(const int password_length, char* password, char** plain) {
         }
         strcpy(candidates[i], word);
     }
-
+    //checking Plaintext matches as possible chandidates
      for (i = 0; i < possibilties; i++) {
          encrypted = crypt(candidates[i], SALT);
          if (strcmp(encrypted, password) == 0) {
