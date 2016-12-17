@@ -75,6 +75,7 @@ int main(int argc, char **argv) {
     //exit if password length is negative
     assert(password_length > 0);
     char *password = argv[2];
+    //Allocating memory
     char* plain = malloc(sizeof(char) * (password_length + 1));
 
     decrypt_password(password_length, password, &plain);
