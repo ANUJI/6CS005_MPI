@@ -77,7 +77,7 @@ int main(int argc, char **argv) {
     char *password = argv[2];
     //Allocating memory
     char* plain = malloc(sizeof(char) * (password_length + 1));
-
+    //checking the decryption password matches
     decrypt_password(password_length, password, &plain);
     if (plain) {
         printf("%s decrypts to: %s\n", password, plain);
