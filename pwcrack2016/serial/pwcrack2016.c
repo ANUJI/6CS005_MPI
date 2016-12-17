@@ -57,7 +57,7 @@ void decrypt_password(const int password_length, char* password, char** plain) {
              break;
          }
      }
-
+     //freeing the memory
     free(word);
 
     return;
