@@ -1,3 +1,5 @@
+//pwcrack2016
+//accesing linux extention functions
 #define _GNU_SOURCE
 #include <assert.h>
 #include <crypt.h>
