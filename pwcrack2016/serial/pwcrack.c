@@ -25,6 +25,7 @@ const int ENCRYPTED_SIZE = 94;
 #define ERROR -1
 //funtion for decrypt password
 void decrypt_password(int, char*, char**);
+//read the file line by line 
 void read_line_in_file(FILE*, char**);
 
 
