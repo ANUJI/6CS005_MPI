@@ -116,7 +116,7 @@ int main(int argc, char **argv) {
             printf("%s decrypts to: %s\n", line, plain);
         }
     } while (*line != '\0');
-
+//file is closed
     (void)fclose(fp);
 
     free(line);
