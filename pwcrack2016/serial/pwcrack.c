@@ -109,6 +109,7 @@ int main(int argc, char **argv) {
     do {
       //Read Lines in the file
         read_line_in_file(fp, &line);
+        //check the decryption password matches
         decrypt_password(password_length, line, &plain);
         if (plain) {
             printf("%s decrypts to: %s\n", line, plain);
