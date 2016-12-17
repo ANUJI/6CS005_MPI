@@ -112,6 +112,7 @@ int main(int argc, char **argv) {
         //check the decryption password matches
         decrypt_password(password_length, line, &plain);
         if (plain) {
+          //if the plain text matches as password print the Message
             printf("%s decrypts to: %s\n", line, plain);
         }
     } while (*line != '\0');
