@@ -102,10 +102,12 @@ int main(int argc, char **argv) {
     if (fp == NULL) {
       //if the condition is true, Print an error Message
         fprintf(stderr, "Could not find file: %s.\n", filename);
+
         return ERROR;
     }
 
     do {
+      //Read Lines in the file
         read_line_in_file(fp, &line);
         decrypt_password(password_length, line, &plain);
         if (plain) {
