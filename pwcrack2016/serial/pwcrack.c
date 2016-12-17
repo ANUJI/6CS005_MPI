@@ -83,6 +83,7 @@ int main(int argc, char **argv) {
     if (argc < 3) {
       //if the condition is true,print the Message
         fprintf(stderr, "Usage: pwcrack n filename\nn should be the number of characters in the password.\n");
+        //if the condition is false, delive the ERROR Message
         return ERROR;
     }
     int password_length = atoi(argv[1]);
