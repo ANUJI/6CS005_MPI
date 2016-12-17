@@ -43,6 +43,7 @@ void read_line_in_file(FILE* fp, char** line) {
 
 //decrypt the password
 void decrypt_password(const int password_length, char* password, char** plain) {
+  //Looking for combinations
     int possibilties = pow(ALPHABET_SIZE, password_length);
     char candidates[possibilties][password_length + 1];
     long i = 0, val = 0;
