@@ -70,6 +70,7 @@ int main(int argc, char **argv) {
         fprintf(stderr, "Usage: pwcrack n ciphertext\nn should be the number of characters in the password.\nRemember to escape $ characters in your shell\n");
         return ERROR;
     }
+    //convert argv array to int
     int password_length = atoi(argv[1]);
     assert(password_length > 0);
     char *password = argv[2];
