@@ -100,6 +100,7 @@ int main(int argc, char **argv) {
     fp = fopen(filename, "rb");
     //check the file is empty
     if (fp == NULL) {
+      //if the condition is true, Print an error Message
         fprintf(stderr, "Could not find file: %s.\n", filename);
         return ERROR;
     }
