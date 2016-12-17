@@ -66,6 +66,7 @@ void decrypt_password(const int password_length, char* password, char** plain) {
 int main(int argc, char **argv) {
   //checking for argc is smaller than 3
     if (argc < 3) {
+      //if the condition is false, printing the error Message
         fprintf(stderr, "Usage: pwcrack n ciphertext\nn should be the number of characters in the password.\nRemember to escape $ characters in your shell\n");
         return ERROR;
     }
