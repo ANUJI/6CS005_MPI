@@ -33,7 +33,7 @@ FILE* open_file(char* filename) {
 void close_file(FILE* fp) {
     fclose(fp);
 }
-
+//read line by line of the opening file
 void read_line_in_file(FILE* fp, char** line) {
     size_t len = 0;
     ssize_t read;
